@@ -5,7 +5,7 @@ var views = require('./views.js');
 var canvas = require('./canvas.js');
 
 const io = require('socket.io-client');
-const socket = io('http://localhost:8000');
+const socket = io();
 
 /**
 	Init game matrix
