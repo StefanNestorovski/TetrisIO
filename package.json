@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "tetris multiplayer using sockets",
   "main": "app.js",
+  "engines": {
+    "node": "12.13.0"
+  }
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify ./src/*.js -o ./public/tetris.js",
