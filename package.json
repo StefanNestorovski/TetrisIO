@@ -1,0 +1,20 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "tetris multiplayer using sockets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./src/*.js -o ./public/tetris.js",
+    "start": "node app.js",
+    "fullStart": "browserify ./src/*.js -o ./public/tetris.js && node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "ws": "^7.2.0"
+  }
+}
